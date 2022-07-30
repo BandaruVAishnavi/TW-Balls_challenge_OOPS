@@ -5,7 +5,7 @@ public class BallsChallengeOOPS extends PApplet{
         PApplet.main("BallsChallengeOOPS", args);
     }
     Window window = new Window();
-    Sphere sphere = new Sphere();
+    Sphere sphere = new Sphere(10);
 
     @Override
     public void settings() {
