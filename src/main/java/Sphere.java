@@ -2,9 +2,9 @@ import processing.core.PApplet;
 public class Sphere {
     private int DIAMETER, speed1, speed2, speed3, speed4;
 
-    public Sphere()
+    public Sphere(int diameter)
     {
-        DIAMETER = 10;
+        this.DIAMETER = diameter;
         speed1 = speed2 = speed3 = speed4 = 0;
     }
     public int getDIAMETER() {
